@@ -68,7 +68,7 @@ body {
 }
 
 .picture img {
-	width: 100%;
+	width: 320px;
 
 }
 #about-me {
@@ -121,7 +121,7 @@ body {
 }
 .gallery-item {
 	position: absolute;
-	width: 100%;
+	width: 380px;
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
