@@ -110,7 +110,7 @@
     },
     responsiveImageItem(element) {
       if (element.prop("tagName") === "IMG") {
-        element.addClass("img-fluid");
+        element.addClass("l");
       }
     },
     openLightBox(element, lightboxId) {
