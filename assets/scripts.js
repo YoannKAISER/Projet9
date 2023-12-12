@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('.gallery').mauGallery({
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector('.gallery').style = {
         columns: {
             xs: 1,
             sm: 2,
@@ -11,5 +11,5 @@ $(document).ready(function() {
         lightboxId: 'myAwesomeLightbox',
         showTags: true,
         tagsPosition: 'top'
-    });
+    };
 });
