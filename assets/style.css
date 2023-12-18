@@ -107,8 +107,14 @@ body {
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
+.gallery-items-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .item-column::after{
-	content: "";
 	display: block;
 	padding-bottom: 100%;
 
@@ -116,6 +122,26 @@ body {
 .gallery-item {
 	object-fit: cover;
 	padding: .5em;
+}
+
+.mg-next {
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.mg-prev {
+	width: 30px;
+	height: 30px;
+	font-size: x-large;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .quote {
